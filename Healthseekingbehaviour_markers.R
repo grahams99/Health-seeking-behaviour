@@ -5,10 +5,18 @@
 # File name: healthseekingbehaviour_markers.R
 # Status: in progress
 # CPRD version: May 2022
-# Data sets used: CPRD Aurum and HES APC
+# Data sets used: all of the files pulled in e.g., 
+# "observations_markers_pt1_tmp1.parquet" are parquet files that contain 
+# the relevant code list for each marker that has been merged with the relevant 
+# data file. For example, this file contains code lists for part 1 markers (AAA,
+# screen, breast cancer screen, bowel cancer screen, cervical cancer screen, 
+# pneunococcal vaccination, PSA test, bone scans and NHS health checks) that have
+# been merged with the CPRD Aurum observation files. 
 # R scripts needed: global (not included as has links to secure severs), data 
 # prep new (not included as merging code lists with raw data files) and population.
-# Data sets created:
+# Data sets created: "covid_marker_pop.parquet", "flu_marker_pop.parquet" and
+# "neg_marker_pop.parquet" which are parquet files for all the analysis 
+# specific populations that contain a column for each marker. 
 # Description of file: this file creates all the markers for all the populations
 # and then merges with the patient file - creating one for each analysis 
 # population. 

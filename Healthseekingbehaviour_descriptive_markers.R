@@ -5,9 +5,13 @@
 # File name: healthseekingbehaviour_descriptive_markers.R
 # Status: in progress
 # CPRD version: May 2022
-# Data sets used: CPRD Aurum and HES APC
+# Data sets used: "covid_marker_pop.parquet", "flu_marker_pop.parquet" and 
+# "neg_marker_pop.parquet" which are parquet files that were created in the
+# marker R script. These contain all the analyses specific populations and 
+# then a column for each marker. 
 # R scripts needed: global (not included as has links to secure severs), data 
 # prep new (not included as merging code lists with raw data files) and markers 
+# Data sets created: created file output for paper including tables and plots. 
 # Description of file: create a prevalence table of all markers and also 
 # stratifies this by gender. Creates dendrograms to show clusters of markers in 
 # the data. Creates plots that stratify prevalence of each marker by age 
