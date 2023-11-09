@@ -11,7 +11,8 @@
 # R scripts needed: global
 # Data sets created: "study_population_covid.parquet", 
 # "study_population_flu.parquet" and "study_population_neg.parquet" which are
-# the analysis specific populations. 
+# the analysis specific populations. It should be noted that for the paper 
+# only the flu analysis population was used. 
 # Description of file: This script brings in the patient files and checks that 
 # the inclusion/exclusion criteria were applied. Then merges the 
 # patient file with the practice file to bring in pracid and last collection 
