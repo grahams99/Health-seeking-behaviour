@@ -16,9 +16,9 @@
 # Description of file: This script brings in the patient files and checks that 
 # the inclusion/exclusion criteria were applied. Then merges the 
 # patient file with the practice file to bring in pracid and last collection 
-# date. Then it links with ONS data and HES data, removes patients without HES 
-# linkage and then creates each of the analysis specific populations (covid, 
-# flu, negative exposure). 
+# date. Then it links with ONS data and CPRD Aurum linkage elegibility, 
+# removes patients without HES linkage and then creates each of the analysis 
+# specific populations (covid, flu, negative exposure). 
 ################################################################################
 
 #get all patient files from the parquet files
